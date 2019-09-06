@@ -184,6 +184,7 @@ body, div, p, span, input, button, textarea, ul, li, table, tr, td {
 .title_a{
     color: #5CC3B1 !important;
     cursor: pointer;
+    text-decoration:none;
 }
 .project_experience_msg,
 .practice_experience_detail,
