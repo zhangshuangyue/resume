@@ -1,0 +1,218 @@
+body{
+    background: #e0e0e0;
+}
+body, div, p, span, input, button, textarea, ul, li, table, tr, td {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "微软雅黑";
+    outline: none;
+    font-size: 14px;
+    color: #2B8387;
+}
+/* 个人描述 */
+.mine_name {
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F1EDE7;
+}
+.describe_msg {
+    border-top: 2px solid #28887c;
+    border-bottom: 1.6px solid #359889;
+    padding: 20px 2px;
+    
+}
+.describe{
+    line-height: 30px;
+    color: #2B8387;
+    font-size: 15px;
+    font-weight: 500;
+}
+.job_name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #28887c;
+    padding-top: 5px;
+}
+/*技能树*/
+.skill_container li{
+ width: 100%;
+ overflow: hidden;
+ padding: 5px 0;
+}
+.skill_container{
+    margin-top: 20px;
+}
+.skill_li_msg{
+    display: inline-block;
+}
+.skill_name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F1EDE7;
+    float: left;
+    width: 110px;
+    text-align: right;
+    padding-right: 15px;
+    height: 20px;
+    line-height: 20px;
+}
+.skill_slide_bar{
+    width: 140px;
+    background-color: #3EB79F;
+    float: left;
+    height: 20px;
+    border-radius: 20px;
+}
+.skill_slide_bar_sec{
+    background-color: #F1EDE7;
+    height: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+.skill_slide_bar_one{
+    width: 95%;
+}
+.skill_slide_bar_two{
+    width: 95%;
+}
+.skill_slide_bar_three{
+    width: 95%;
+}
+.skill_slide_bar_four{
+    width: 60%;
+}
+.skill_slide_bar_five{
+    width: 85%;
+}
+
+@media screen and (min-width:768px) and (max-width:1000px){
+    .skill_li_msg {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .skill_name {
+        float: inherit;
+        width: 125px;
+        text-align: left;
+        margin: 5px auto;
+    }
+    .skill_slide_bar {
+        width: 160px;
+        float: inherit;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+/* 个人简介 */
+.mine_introduction,.left_bottom{
+     padding:0 45px;
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    .mine_introduction,.left_bottom{
+        padding:0 25px;
+   }
+}
+.mine_introduction{
+    color: #2B8387;
+    line-height: 25px;
+    font-size: 15px;
+    padding-top: 35px;
+    text-align: left;
+    font-weight: 500;
+    height: 250px;
+    display: inline-block;
+}
+/*关于我*/
+.about_me_container{
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+.about_me{
+    width: 80%;
+    margin: 0 auto;
+}
+.about_me li{
+    padding: 5px;
+}
+.about_me i{
+    color: #FFFFFF; 
+    padding-right: 10px;
+}
+.email_number_shenglue{
+    display:none;
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    .email_number_shenglue{
+        display: inline-block;
+    }
+    .email_number{
+        display:none;
+    }
+}
+
+/*右边栏*/
+.introduction_msg{
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.project_experience,
+.practice_experience,.education_experience,
+.more_experience{
+    font-size: 30px;
+    font-weight: 600;
+    color: #28887c;
+}
+/*项目经历*/
+.project_experience{
+    padding-top: 20px;
+}
+.project_experience_title,
+.practice_experience_title,
+.education_experience_title{
+    color: #5CC3B1;
+    font-size: 23px;
+    font-weight: 600;
+    padding:10px 0; 
+}
+.title_a{
+    color: #5CC3B1 !important;
+    cursor: pointer;
+}
+.project_experience_msg,
+.practice_experience_detail,
+.more_experience_container,
+.date{
+    line-height: 23px;
+    font-size: 15px;
+}
+.date{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+}
+.project_experience_container,
+.education_experience_container,
+.practice_experience_container,
+.more_experience_container{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+/*实习经历*/
+.practice_experience{
+    padding-top: 30px;
+}
+/*教育背景*/
+.education_experience{
+    padding-top: 30px;
+}
+/*更多*/
+.more_experience{
+    padding-top: 30px;
+}
