@@ -160,7 +160,7 @@ body, div, p, span, input, button, textarea, ul, li, table, tr, td {
 /*右边栏*/
 .introduction_msg{
     padding-left: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .project_experience,
 .practice_experience,.education_experience,
@@ -171,7 +171,7 @@ body, div, p, span, input, button, textarea, ul, li, table, tr, td {
 }
 /*项目经历*/
 .project_experience{
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .project_experience_title,
 .practice_experience_title,
@@ -208,13 +208,13 @@ a:link{ text-decoration:none; }
 }
 /*实习经历*/
 .practice_experience{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 /*教育背景*/
 .education_experience{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 /*更多*/
 .more_experience{
-    padding-top: 30px;
+    padding-top: 10px;
 }
