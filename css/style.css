@@ -72,19 +72,19 @@ body, div, p, span, input, button, textarea, ul, li, table, tr, td {
     border-radius: 20px 0px 0px 20px;
 }
 .skill_slide_bar_one{
-    width: 95%;
+    width: 90%;
 }
 .skill_slide_bar_two{
-    width: 95%;
+    width: 90%;
 }
 .skill_slide_bar_three{
-    width: 95%;
+    width: 90%;
 }
 .skill_slide_bar_four{
-    width: 60%;
+    width: 50%;
 }
 .skill_slide_bar_five{
-    width: 85%;
+    width: 90%;
 }
 
 @media screen and (min-width:768px) and (max-width:1000px){
@@ -186,6 +186,7 @@ body, div, p, span, input, button, textarea, ul, li, table, tr, td {
     cursor: pointer;
     text-decoration:none;
 }
+a:link{ text-decoration:none; }
 .project_experience_msg,
 .practice_experience_detail,
 .more_experience_container,
