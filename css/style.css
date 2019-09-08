@@ -206,6 +206,9 @@ a:link{ text-decoration:none; }
     padding-top: 10px;
     padding-right: 20px;
 }
+.more_experience_container p{
+    font-size: 15px;
+}
 /*实习经历*/
 .practice_experience{
     padding-top: 10px;
